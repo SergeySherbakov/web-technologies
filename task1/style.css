@@ -1,0 +1,49 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    padding: 10px;
+    border: 2px dotted black;
+}
+
+hr {
+    width: 80%;
+}
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    padding: 5px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+li:hover {
+    background-color: darkgrey;
+}
+
+.secondp {
+    color: rgb(2, 14, 27);
+}
+
+footer {
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+html {
+    background: url(images/baikal.jpg.jpg);
+}
